@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="vmn.ico" type="image/x-icon">
+    <title>Урок 12</title>
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend><b>Оформление заказа</b></legend>
+            <fieldset>
+                <legend><mark>Ваши контактные данные</kmar></legend>
+                <label>Введите Ваше имя
+                    <input type="text">
+                </label> <br>
+                <label>Введите Вашу фамилию
+                    <input type="text">
+                </label><br>
+                <label>Введите Ваш телефон
+                    <input type="tel">
+                </label><br>
+                <label>Введите Вашу почту
+                    <input type="email">
+                </label><br>
+                <label>Введите дату и время закааз
+                    <input type="datetime-local">
+                </label><br>
+            </fieldset>
+            <Fieldset>
+                <legend><mark>Данные по заказу</mark></legend>
+                <fieldset>
+                    <legend>количество огурцов</legend>
+                    <input type="radio" name="1">один огурец<br>
+                    <input type="radio" name="1">два огурца<br>
+                    <input type="radio" name="1">три огурца<br>
+                </fieldset>
+                <fieldset>
+                    <legend>тип огурцов</legend>
+                    <input type="checkbox">с пупырками<br>
+                    <input type="checkbox">длинные<br>
+                    <input type="checkbox">вкусные<br>
+                    <input type="checkbox">мягкие<br>
+                    <input type="checkbox">мытые<br>
+                </fieldset>
+                тип применения <input list="prim">
+                <datalist id="prim">
+                    <option value="обычное "></option>
+                    <option value="НЕобычное"></option>
+                </datalist>
+            </Fieldset>
+            <input type="submit">
+            <input type="reset">
+        </fieldset>
+    </form>
+</body>
+
+</html>

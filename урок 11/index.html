@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="vmn.ico" type="image/x-icon">
+    <title>Урок 11</title>
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend><mark>Ваши данные</mark></legend>
+            <label>Ваше имя
+                <input type="text">
+            </label>
+            <label>Ваш город
+                <select name="select1">
+                    <option value="0">--выберите из списка--</option>
+                    <option value="1">Москва</option>
+                    <option value="2">Пермь</option>
+                    <option value="3">Хабаровск</option>
+                    <option value="4">Ростов</option>
+                </select>
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend><mark>Данные вашего питомца</mark></legend>
+            <label>Кличка животного
+                <input type="text">
+            </label>
+            <label>Тип животного
+                <select name="select2">
+                    <option value="0">--выберите из списка--</option>
+                    <option value="1">Собака</option>
+                    <option value="2">Кошка</option>
+                    <option value="3">Черепаха</option>
+                    <option value="4">Хомяк</option>
+                </select>
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend><mark>Опишите проблему</mark></legend>
+            <textarea name="problems" cols="100" rows="2,5"></textarea>
+        </fieldset>
+        <button type="submit">Отправить данные</button>
+        <button type="reset">Попробовать еще раз</button>
+    </form>
+</body>
+
+</html>
